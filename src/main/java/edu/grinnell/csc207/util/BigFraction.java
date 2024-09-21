@@ -65,6 +65,21 @@ public class BigFraction {
   } // BigFraction(BigInteger, BigInteger)
 
   /**
+   * Build a new fraction with numerator num and denominator denom.
+   *
+   * Warning! Not yet stable.
+   *
+   * @param numerator
+   *   The numerator of the fraction.
+   * @param denominator
+   *   The denominator of the fraction.
+   */
+  public BigFraction(int numerator, int denominator) {
+    this.num = BigInteger.valueOf(numerator);
+    this.denom = BigInteger.valueOf(denominator);
+  } // BigFraction(int, int)
+
+  /**
    * Build a new fraction by parsing a string.
    *
    * Warning! Not yet implemented.
