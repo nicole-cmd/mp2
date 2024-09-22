@@ -20,8 +20,23 @@ public class BFCalculator {
    * Will store previously computed answers. Initialized to
    * BigFraction 0/0 when there are no computed answers to be stored.
    */
-  BigFraction lastAnswer = zero;
+  public BigFraction lastAnswer = zero;
 
+  // +--------------+-------------------------------------------------
+  // | Constructors |
+  // +--------------+
+
+  /**
+   * Build a new calculator with trackAnswer lastAnswer.
+   *
+   *
+   * @param trackAnswer
+   *   The previously computed answer.
+   */
+  public BFCalculator(BigFraction trackAnswer) {
+    this.lastAnswer = trackAnswer;
+  }
+  
   // +---------+------------------------------------------------------
   // | Methods |
   // +---------+
