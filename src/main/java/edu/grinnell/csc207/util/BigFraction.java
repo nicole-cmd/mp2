@@ -25,16 +25,6 @@ public class BigFraction {
    *
    */
 
-  // +-----------+---------------------------------------------------
-  // | Constants |
-  // +-----------+
-
-  /** The default numerator when creating fractions. */
-  //private static final BigInteger DEFAULT_NUMERATOR = BigInteger.valueOf(2);
-
-  /** The default denominator when creating fractions. */
-  //private static final BigInteger DEFAULT_DENOMINATOR = BigInteger.valueOf(7);
-
   // +--------+-------------------------------------------------------
   // | Fields |
   // +--------+

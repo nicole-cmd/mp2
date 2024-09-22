@@ -5,14 +5,22 @@ package edu.grinnell.csc207.util;
  */
 
 public class BFCalculator {
+  // +-----------+---------------------------------------------------
+  // | Constants |
+  // +-----------+
+
+  /** Default value of the last computed answer when it is not set. */
+  BigFraction zero = new BigFraction(0, 0);
+
   // +--------+-------------------------------------------------------
   // | Fields |
   // +--------+
 
-  /** Will store previously computed answers. Initialized to
-   *  BigFraction 0/0 when there are no computed answers to be stored.
+  /**
+   * Will store previously computed answers. Initialized to
+   * BigFraction 0/0 when there are no computed answers to be stored.
    */
-  BigFraction lastAnswer = new BigFraction(0, 0); 
+  BigFraction lastAnswer = zero;
 
   // +---------+------------------------------------------------------
   // | Methods |
@@ -103,6 +111,6 @@ public class BFCalculator {
      * 
      */
     public void clear() {
-      this.lastAnswer = new BigFraction(0, 0);
+      this.lastAnswer = zero;
     } // clear()
 } //class BFCalculator
