@@ -8,10 +8,10 @@ import java.math.BigInteger;
  *
  * @author (of lab): Samuel A. Rebelsky
  * @author (of lab work): Alyssa Ryan and Nicole Gorrell
+ *         Contributions include multiply and fractional methods.
  * @author (MP modifications): Nicole Gorrell
  *         Contributions include subtract and divide methods, as well as documentation
- *         for fractional and multiply methods. Removed several constructors and 
- *         methods that were included in the lab, but go beyond this project's scope.
+ *         for fractional and multiply methods. 
  */
 public class BigFraction {
   // +------------------+---------------------------------------------
